@@ -1,0 +1,8 @@
+pwd
+mkdir test1
+cd test1
+touch file.txt
+echo -e "line\nline\nline" > file.txt
+cat file.txt
+grep "line" file.txt
+curl -X GET "https://swagger.io"
